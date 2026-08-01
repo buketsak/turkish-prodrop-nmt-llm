@@ -1,0 +1,1576 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = turkish-kenet-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Şehir hayatından hoşlanıyorsun ama ben kırsalın sessizliğini tercih ediyorum.
+1	Şehir	şehir	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	hayatından	hayat	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+3	hoşlanıyorsun	hoşlan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	9	cc	_	_
+5	ben	ben	PRON	_	PronType=Prs	9	nsubj	_	_
+6	kırsalın	kırsal	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
+7	sessizliğini	ses	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
+8	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
+9	ediyorum	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sıkıcı olduğunu düşünebilirsin ama ben büyüleyici buluyorum.
+1	Sıkıcı	sıkıcı	ADJ	_	_	2	advmod	_	_
+2	olduğunu	ol	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	ccomp	_	_
+3	düşünebilirsin	düşün	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	7	cc	_	_
+5	ben	ben	PRON	_	PronType=Prs	7	nsubj	_	_
+6	büyüleyici	büyüle	ADJ	_	_	7	advmod	_	_
+7	buluyorum	bul	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Melis bile trene yetişmeyi başardı, ama yine kaçırdın.
+1	Melis	melis	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	bile	bile	ADV	_	_	1	advmod	_	_
+3	trene	tren	NOUN	_	Case=Dat|Number=Sing|Person=3	4	obl	_	_
+4	yetişmeyi	yetiş	NOUN	_	Case=Acc|Number=Sing|Person=3	5	ccomp	_	_
+5	başardı	başar	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	9	cc	_	_
+8	yine	yine	ADV	_	_	9	advmod	_	_
+9	kaçırdın	kaç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = O mucizelere inanıyor, o da çalışmaya.
+1	O	o	PRON	_	PronType=Prs	3	nsubj	_	_
+2	mucizelere	mucize	NOUN	_	Case=Dat|Number=Plur|Person=3	3	obl	_	_
+3	inanıyor	inan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	PRON	_	PronType=Prs	7	nsubj	_	_
+6	da	da	CCONJ	_	_	5	advmod	_	_
+7	çalışmaya	çalış	NOUN	_	Case=Dat|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Sen sadece sorunu görüyorsun, ben ise fırsatları görüyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	sadece	sadece	ADV	_	_	4	advmod	_	_
+3	sorunu	sorun	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	görüyorsun	gör	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ben	ben	PRON	_	PronType=Prs	9	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	fırsatları	fırsat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
+9	görüyorum	gör	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = O konuşmak istedi, ama o sessizliği seçti.
+1	O	o	PRON	_	PronType=Prs	3	nsubj	_	_
+2	konuşmak	konuş	NOUN	_	Case=Nom|Number=Sing|Person=3	3	xcomp	_	_
+3	istedi	iste	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	8	cc	_	_
+6	o	o	PRON	_	PronType=Prs	7	det	_	_
+7	sessizliği	sessizlik	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+8	seçti	seç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Sen unutmuş olabilirsin ama ben her şeyi hatırlıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	3	nsubj	_	_
+2	unutmuş	unut	ADJ	_	_	3	advcl	_	_
+3	olabilirsin	olabilir	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	8	cc	_	_
+5	ben	ben	PRON	_	PronType=Prs	8	nsubj	_	_
+6	her	her	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	şeyi	şey	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+8	hatırlıyorum	hatırla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = O geleneğe hayran, o değişimi kucaklıyor.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	geleneğe	gelenek	NOUN	_	Case=Dat|Number=Sing|Person=3	3	obl	_	_
+3	hayran	hayran	ADJ	_	_	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	değişimi	değişim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
+7	kucaklıyor	kucakla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Sen düşünmeden hareket ederken ben her hareketi planlıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	düşünmeden	düşün	NOUN	_	Case=Abl|Number=Sing|Person=3	4	advcl	_	_
+3	hareket	hareket	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	ederken	et	ADV	_	_	8	advcl	_	_
+5	ben	ben	PRON	_	PronType=Prs	8	nsubj	_	_
+6	her	her	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	hareketi	hareket	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+8	planlıyorum	planla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Çocuklar bile dersleri anlayabiliyordu, yine de ona açıklamayı sürdürdü.
+1	Çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	bile	bile	ADV	_	_	1	advmod	_	_
+3	dersleri	ders	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	anlayabiliyordu	anla	VERB	_	Aspect=Perf|Mood=GenPot|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	yine	yine	ADV	_	_	10	advmod	_	_
+7	de	de	CCONJ	_	_	6	advmod	_	_
+8	ona	o	PRON	_	PronType=Prs	10	obl	_	_
+9	açıklamayı	açıklama	NOUN	_	Case=Acc|Number=Sing|Person=3	10	obj	_	_
+10	sürdürdü	sür	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Uyarıyı görmezden gelebilirsin ama ben ciddiye alıyorum.
+1	Uyarıyı	uyarı	NOUN	_	Case=Acc|Number=Sing|Person=3	3	obj	_	_
+2	görmezden	gör	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl	_	_
+3	gelebilirsin	gel	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	7	cc	_	_
+5	ben	ben	PRON	_	PronType=Prs	7	nsubj	_	_
+6	ciddiye	ciddi	NOUN	_	Case=Dat|Number=Sing|Person=3	7	compound	_	_
+7	alıyorum	al	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = O, yardım etmek için erken geldi; o sadece tatlı için geldi.
+1	O	o	PRON	_	PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	yardım	yardım	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	etmek	et	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obl	_	_
+5	için	için	ADP	_	_	4	case	_	_
+6	erken	erken	ADV	_	_	7	advmod	_	_
+7	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+8	;	;	PUNCT	_	_	7	punct	_	_
+9	o	o	PRON	_	PronType=Prs	13	nsubj	_	_
+10	sadece	sadece	ADV	_	_	13	advmod	_	_
+11	tatlı	tatlı	ADJ	_	_	13	obl	_	_
+12	için	için	ADP	_	_	11	case	_	_
+13	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Sen gürültüden şikayet ediyorsun ama ben enerjiden hoşlanıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	gürültüden	gürültü	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
+3	şikayet	şikayet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	ediyorsun	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	8	cc	_	_
+6	ben	ben	PRON	_	PronType=Prs	8	nsubj	_	_
+7	enerjiden	enerji	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+8	hoşlanıyorum	hoşlan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Kadın parayı özgürce harcar; erkek ise her kuruşu saklar.
+1	Kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+2	parayı	para	NOUN	_	Case=Acc|Number=Sing|Person=3	4	obj	_	_
+3	özgürce	özgürce	ADV	_	_	4	advmod	_	_
+4	harcar	harca	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+5	;	;	PUNCT	_	_	4	punct	_	_
+6	erkek	erkek	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	her	her	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	kuruşu	kur	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+10	saklar	sakla	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Sen rahatlık istiyorsun, ben ise macera.
+1	Sen	sen	PRON	_	PronType=Prs	3	nsubj	_	_
+2	rahatlık	rahat	NOUN	_	Case=Nom|Number=Sing|Person=3	3	obj	_	_
+3	istiyorsun	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ben	ben	PRON	_	PronType=Prs	7	nsubj	_	_
+6	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	case	_	_
+7	macera	macera	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = O, hayata bir yarış gibi davranır; o ise bir yolculuk gibi.
+1	O	o	PRON	_	PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	hayata	hayat	NOUN	_	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	yarış	yarış	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obl	_	_
+6	gibi	gibi	ADP	_	_	5	case	_	_
+7	davranır	davran	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	_	_	7	punct	_	_
+9	o	o	PRON	_	PronType=Dem	12	nsubj	_	_
+10	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	case	_	_
+11	bir	bir	DET	_	Definite=Ind|PronType=Art	12	det	_	_
+12	yolculuk	yolculuk	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obl	_	_
+13	gibi	gibi	ADP	_	_	12	case	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Sen kıyıda güvende kal, ben ise dalgalara dalıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	kıyıda	kıyı	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	_
+3	güvende	güven	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	_
+4	kal	kal	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ben	ben	PRON	_	PronType=Prs	9	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	dalgalara	dalga	NOUN	_	Case=Dat|Number=Plur|Person=3	9	obl	_	_
+9	dalıyorum	dal	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Kadın tutkuyla konuşur; erkekse sabırla dinler.
+1	Kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+2	tutkuyla	tutku	NOUN	_	Case=Ins|Number=Sing|Person=3	3	obl	_	_
+3	konuşur	konuş	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+4	;	;	PUNCT	_	_	3	punct	_	_
+5	erkekse	erkekse	NOUN	_	_	7	nsubj	_	_
+6	sabırla	sabır	NOUN	_	Case=Ins|Number=Sing|Person=3	7	obl	_	_
+7	dinler	dinle	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Sen mükemmellik için çabalarken, ben ilerlemeyi hedefliyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	mükemmellik	mükemmellik	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	_
+3	için	için	ADP	_	_	2	case	_	_
+4	çabalarken	çabala	ADV	_	_	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ben	ben	PRON	_	PronType=Prs	8	nsubj	_	_
+7	ilerlemeyi	ilerle	NOUN	_	Case=Acc|Number=Sing|Person=3	8	ccomp	_	_
+8	hedefliyorum	hedefle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Utangaç öğrenciler bile soru sorarken sen sessiz kaldın.
+1	Utangaç	utangaç	ADJ	_	_	2	amod	_	_
+2	öğrenciler	öğrenci	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+3	bile	bile	ADV	_	_	2	advmod	_	_
+4	soru	soru	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
+5	sorarken	sor	ADV	_	_	8	advcl	_	_
+6	sen	sen	PRON	_	PronType=Prs	8	nsubj	_	_
+7	sessiz	ses	ADJ	_	_	8	advmod	_	_
+8	kaldın	kal	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = turkish-kenet-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Kurallara körü körüne uyarsın, ben ise her şeyi sorguluyorum.
+1	Kurallara	kural	NOUN	_	Case=Dat|Number=Plur|Person=3	4	obl	_	_
+2	körü	kör	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	compound	_	_
+3	körüne	kör	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	compound	_	_
+4	uyarsın	uy	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ben	ben	PRON	_	PronType=Prs	10	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	her	her	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	şeyi	şey	NOUN	_	Case=Acc|Number=Sing|Person=3	10	obj	_	_
+10	sorguluyorum	sorgula	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Kadın kolayca güvenir, ama erkek sürekli şüphe eder.
+1	Kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+2	kolayca	kolay	ADV	_	_	3	advmod	_	_
+3	güvenir	güven	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	9	cc	_	_
+6	erkek	erkek	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+7	sürekli	sürekli	ADV	_	_	9	advmod	_	_
+8	şüphe	şüphe	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
+9	eder	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Sen kalabalıklarda sevinç buluyorsun, ben yalnız huzur buluyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	kalabalıklarda	kalabalık	NOUN	_	Case=Loc|Number=Plur|Person=3	4	obl	_	_
+3	sevinç	sevinç	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
+4	buluyorsun	bul	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ben	ben	PRON	_	PronType=Prs	9	nsubj	_	_
+7	yalnız	yalnız	ADV	_	_	9	advmod	_	_
+8	huzur	huzur	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
+9	buluyorum	bul	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = O bağlantılar kurar, o duvarlar.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	bağlantılar	bağlantı	NOUN	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	kurar	kur	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	duvarlar	duvar	NOUN	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Sen zorluklardan kaçınıyorsun ama ben onları karşılıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	3	nsubj	_	_
+2	zorluklardan	zorluk	NOUN	_	Case=Abl|Number=Plur|Person=3	3	obl	_	_
+3	kaçınıyorsun	kaçın	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	7	cc	_	_
+5	ben	ben	PRON	_	PronType=Prs	7	nsubj	_	_
+6	onları	o	PRON	_	PronType=Dem	7	obj	_	_
+7	karşılıyorum	karşıla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = O şiir yazıyor, o fizik okuyor.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	şiir	şiir	NOUN	_	Case=Nom|Number=Sing|Person=3	3	obj	_	_
+3	yazıyor	yaz	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	PRON	_	PronType=Prs	7	nsubj	_	_
+6	fizik	fizik	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
+7	okuyor	oku	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Başarının şans olduğunu düşünüyorsun ama bence çaba.
+1	Başarının	başarı	NOUN	_	Case=Gen|Number=Sing|Person=3	3	nsubj	_	_
+2	şans	şans	NOUN	_	Case=Nom|Number=Sing|Person=3	3	obj	_	_
+3	olduğunu	ol	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	ccomp	_	_
+4	düşünüyorsun	düşün	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	7	cc	_	_
+6	bence	ben	PRON	_	PronType=Prs	7	obl	_	_
+7	çaba	çaba	NOUN	_	Case=Nom|Number=Sing|Person=3	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = En genç üye bile fikirlerini sundu ama sen hiçbir şey söylemedin.
+1	En	en	ADV	_	Degree=Sup	2	advmod	_	_
+2	genç	genç	ADJ	_	_	3	amod	_	_
+3	üye	üye	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
+4	bile	bile	ADV	_	_	3	advmod	_	_
+5	fikirlerini	fikir	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
+6	sundu	sun	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ama	ama	CCONJ	_	_	11	cc	_	_
+8	sen	sen	PRON	_	PronType=Prs	11	nsubj	_	_
+9	hiçbir	hiçbir	DET	_	PronType=Art	10	det	_	_
+10	şey	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obj	_	_
+11	söylemedin	söyle	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Sen yazı seviyorsun, ama ben kışı özlüyorum.
+1	Sen	sen	PRON	_	PronType=Prs	3	nsubj	_	_
+2	yazı	yaz	NOUN	_	Case=Acc|Number=Sing|Person=3	3	obj	_	_
+3	seviyorsun	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	8	cc	_	_
+6	ben	ben	PRON	_	PronType=Prs	8	nsubj	_	_
+7	kışı	kış	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+8	özlüyorum	özle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Erken geldi, o ise gelmek için zahmet bile etmedi.
+1	Erken	erken	ADV	_	_	2	advmod	_	_
+2	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	PRON	_	PronType=Prs	10	nsubj	_	_
+5	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	case	_	_
+6	gelmek	gel	NOUN	_	Case=Nom|Number=Sing|Person=3	10	advcl	_	_
+7	için	için	ADP	_	_	6	case	_	_
+8	zahmet	zahmet	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	_
+9	bile	bile	ADV	_	_	10	advmod	_	_
+10	etmedi	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Ben dürüstlüğe değer veriyorum ama sen kolaylığı tercih ediyorsun.
+1	Ben	ben	PRON	_	PronType=Prs	4	nsubj	_	_
+2	dürüstlüğe	dürüst	NOUN	_	Case=Dat|Number=Sing|Person=3	4	obl	_	_
+3	değer	değer	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	veriyorum	ver	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	9	cc	_	_
+6	sen	sen	PRON	_	PronType=Prs	9	nsubj	_	_
+7	kolaylığı	kolaylık	NOUN	_	Case=Acc|Number=Sing|Person=3	9	obj	_	_
+8	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
+9	ediyorsun	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Karısı hemen konuşuyor, ama kocası cevap vermeye çok zaman ayırıyor.
+1	Karısı	karı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
+2	hemen	hemen	ADV	_	_	3	advmod	_	_
+3	konuşuyor	konuş	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	11	cc	_	_
+6	kocası	koca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+7	cevap	cevap	NOUN	_	Case=Nom|Number=Sing|Person=3	8	compound	_	_
+8	vermeye	ver	NOUN	_	Case=Dat|Number=Sing|Person=3	11	obl	_	_
+9	çok	çok	ADJ	_	_	10	amod	_	_
+10	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+11	ayırıyor	ayır	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Sen görünüşe odaklan, ben ise içeriğe.
+1	Sen	sen	PRON	_	PronType=Prs	3	nsubj	_	_
+2	görünüşe	görünüş	NOUN	_	Case=Dat|Number=Sing|Person=3	3	obl	_	_
+3	odaklan	odaklan	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ben	ben	PRON	_	PronType=Prs	7	nsubj	_	_
+6	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	case	_	_
+7	içeriğe	içerik	NOUN	_	Case=Dat|Number=Sing|Person=3	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = O roman okur, ama ben belgeselleri tercih ederim.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	roman	roman	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+3	okur	okur	NOUN	_	Case=Nom|Number=Sing|Person=3	9	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	9	cc	_	_
+6	ben	ben	PRON	_	PronType=Prs	9	nsubj	_	_
+7	belgeselleri	belgesel	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
+8	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	9	compound	_	_
+9	ederim	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = O her gün pratik yapıyor; o sadece ilham aldığında çalıyor.
+1	O	o	PRON	_	PronType=Prs	5	nsubj	_	_
+2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+4	pratik	pratik	ADJ	_	_	5	advmod	_	_
+5	yapıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+6	;	;	PUNCT	_	_	5	punct	_	_
+7	o	o	PRON	_	PronType=Prs	11	nsubj	_	_
+8	sadece	sadece	ADV	_	_	10	advmod	_	_
+9	ilham	ilham	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
+10	aldığında	al	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	advcl	_	_
+11	çalıyor	çal	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Sessizliğin huzurunu bulursun, ama ben gürültüyle büyürüm.
+1	Sessizliğin	ses	NOUN	_	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
+2	huzurunu	huzur	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+3	bulursun	bul	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	8	cc	_	_
+6	ben	ben	PRON	_	PronType=Prs	8	nsubj	_	_
+7	gürültüyle	gürültü	NOUN	_	Case=Ins|Number=Sing|Person=3	8	obl	_	_
+8	büyürüm	büyü	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = O, her kuruşunu biriktirirken, kadın düşünmeden harcar.
+1	O	o	PRON	_	PronType=Prs	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	her	her	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	kuruşunu	kur	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+5	biriktirirken	birik	ADV	_	_	9	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+8	düşünmeden	düşün	NOUN	_	Case=Abl|Number=Sing|Person=3	9	advcl	_	_
+9	harcar	harca	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Sosyal etkinliklerden hoşlanıyorum ama sen her zaman ayrılmak için bir bahane arıyorsun.
+1	Sosyal	sosyal	ADJ	_	_	2	amod	_	_
+2	etkinliklerden	etkin	NOUN	_	Case=Abl|Number=Plur|Person=3	3	obl	_	_
+3	hoşlanıyorum	hoşlan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	12	cc	_	_
+5	sen	sen	PRON	_	PronType=Prs	12	nsubj	_	_
+6	her	her	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl	_	_
+8	ayrılmak	ayrıl	NOUN	_	Case=Nom|Number=Sing|Person=3	12	advcl	_	_
+9	için	için	ADP	_	_	8	case	_	_
+10	bir	bir	DET	_	Definite=Ind|PronType=Art	11	det	_	_
+11	bahane	bahane	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obj	_	_
+12	arıyorsun	ara	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Sen kolayca güvenirsin, ama ben herkesi sorguluyorum.
+1	Sen	sen	PRON	_	PronType=Prs	3	nsubj	_	_
+2	kolayca	kolay	ADV	_	_	3	advmod	_	_
+3	güvenirsin	güven	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	8	cc	_	_
+6	ben	ben	PRON	_	PronType=Prs	8	nsubj	_	_
+7	herkesi	herkes	NOUN	_	Case=Acc|Number=Sing|Person=3	8	obj	_	_
+8	sorguluyorum	sorgula	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Kadın hemen affeder, ama erkek kin besler.
+1	Kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
+2	hemen	hemen	ADV	_	_	3	advmod	_	_
+3	affeder	affet	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	8	cc	_	_
+6	erkek	erkek	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound	_	_
+7	kin	kin	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obj	_	_
+8	besler	besle	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = turkish-kenet-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ben düzeni severim ama sen kaos seviyor gibisin.
+1	Ben	ben	PRON	_	PronType=Prs	3	nsubj	_	_
+2	düzeni	düzen	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+3	severim	sev	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	8	cc	_	_
+5	sen	sen	PRON	_	PronType=Prs	8	nsubj	_	_
+6	kaos	kaos	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+7	seviyor	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+8	gibisin	gibi	VERB	_	Mood=Gen|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = O kuralları takip ederken, kadın onlara karşı çıkıyor.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	kuralları	kural	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+3	takip	takip	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	ederken	et	ADV	_	_	9	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+7	onlara	o	PRON	_	PronType=Dem	9	obl	_	_
+8	karşı	karşı	ADP	_	_	9	compound	_	_
+9	çıkıyor	çık	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Hızlı sonuçlar istiyorsun ama ben sabırlıyım.
+1	Hızlı	hız	ADJ	_	_	2	amod	_	_
+2	sonuçlar	sonuç	NOUN	_	Case=Nom|Number=Plur|Person=3	3	obj	_	_
+3	istiyorsun	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	6	cc	_	_
+5	ben	ben	PRON	_	PronType=Prs	6	nsubj	_	_
+6	sabırlıyım	sabırlı	VERB	_	Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = O büyük hayaller kuruyor ama o başarısızlıktan korkuyor.
+1	O	o	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	büyük	büyük	ADJ	_	_	3	amod	_	_
+3	hayaller	hayal	NOUN	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	kuruyor	kur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	8	cc	_	_
+6	o	o	DET	_	Definite=Def|PronType=Art	8	nsubj	_	_
+7	başarısızlıktan	başarı	NOUN	_	Case=Abl|Number=Sing|Person=3	8	obl	_	_
+8	korkuyor	kork	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ben sorumluluğu aldım ama sen ondan kaçtın.
+1	Ben	ben	PRON	_	PronType=Prs	3	nsubj	_	_
+2	sorumluluğu	sorumluluk	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+3	aldım	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	7	cc	_	_
+5	sen	sen	PRON	_	PronType=Prs	7	nsubj	_	_
+6	ondan	ondan	PRON	_	_	7	obl	_	_
+7	kaçtın	kaç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = O güvenliği seçti, ben ise macera.
+1	O	o	PRON	_	PronType=Prs	2	det	_	_
+2	güvenliği	güvenlik	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+3	seçti	seç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ben	ben	PRON	_	PronType=Prs	7	nsubj	_	_
+6	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	case	_	_
+7	macera	macera	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Tereddüt edebilirsin ama ben riske gireceğim.
+1	Tereddüt	tereddüt	NOUN	_	Case=Nom|Number=Sing|Person=3	2	compound	_	_
+2	edebilirsin	et	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ama	ama	CCONJ	_	_	6	cc	_	_
+4	ben	ben	PRON	_	PronType=Prs	6	nsubj	_	_
+5	riske	risk	NOUN	_	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+6	gireceğim	gir	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Sen evin içinde kalmaktan hoşlanıyorsun, oysa ben sabahtan akşama kadar dışarıda olmayı seviyorum.
+1	Sen	sen	PRON	_	PronType=Prs	5	nsubj	_	_
+2	evin	ev	NOUN	_	Case=Gen|Number=Sing|Person=3	3	nmod	_	_
+3	içinde	içinde	ADV	_	_	4	obl	_	_
+4	kalmaktan	kal	NOUN	_	Case=Abl|Number=Sing|Person=3	5	obl	_	_
+5	hoşlanıyorsun	hoşlan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	oysa	o	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+8	ben	ben	PRON	_	PronType=Prs	14	nsubj	_	_
+9	sabahtan	sabah	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod	_	_
+10	akşama	akşam	NOUN	_	Case=Dat|Number=Sing|Person=3	13	obl	_	_
+11	kadar	kadar	ADP	_	_	10	case	_	_
+12	dışarıda	dışarı	NOUN	_	Case=Loc|Number=Sing|Person=3	13	obl	_	_
+13	olmayı	ol	NOUN	_	Case=Acc|Number=Sing|Person=3	14	ccomp	_	_
+14	seviyorum	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = O insanlara kolayca güvenir, ama o herkesin niyetini sorgular.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	insanlara	insan	NOUN	_	Case=Dat|Number=Plur|Person=3	4	obl	_	_
+3	kolayca	kolay	ADV	_	_	4	advmod	_	_
+4	güvenir	güven	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ama	ama	CCONJ	_	_	10	cc	_	_
+7	o	o	PRON	_	PronType=Dem	10	nsubj	_	_
+8	herkesin	herkes	PRON	_	Case=Gen|Number=Sing|Person=3	9	nmod	_	_
+9	niyetini	niyet	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+10	sorgular	sorgula	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Her kuralı takip ederler, biz ise gerektiğinde onları eğmeyi tercih ederiz.
+1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	kuralı	kural	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+3	takip	takip	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	ederler	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	biz	biz	PRON	_	PronType=Prs	8	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	gerektiğinde	gerek	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	advcl	_	_
+9	onları	o	PRON	_	PronType=Dem	10	obj	_	_
+10	eğmeyi	eğ	NOUN	_	Case=Acc|Number=Sing|Person=3	12	ccomp	_	_
+11	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	12	compound	_	_
+12	ederiz	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Karısı düşüncelerini açıkça dile getiriyor, ama kocası düşüncelerini kendine saklıyor.
+1	Karısı	karı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
+2	düşüncelerini	düşünce	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+3	açıkça	açık	ADV	_	_	5	advmod	_	_
+4	dile	dil	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	compound	_	_
+5	getiriyor	getir	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	11	cc	_	_
+8	kocası	koca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+9	düşüncelerini	düşünce	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
+10	kendine	kendi	PRON	_	PronType=Prs|Reflex=Yes	11	obl	_	_
+11	saklıyor	sakla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Her detayı planlamayı severim ama sen dürtüsel davranmayı tercih ediyorsun.
+1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	detayı	deta	NOUN	_	Case=Acc|Number=Sing|Person=3	3	obj	_	_
+3	planlamayı	planla	NOUN	_	Case=Acc|Number=Sing|Person=3	4	ccomp	_	_
+4	severim	sev	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	10	cc	_	_
+6	sen	sen	PRON	_	PronType=Prs	10	nsubj	_	_
+7	dürtüsel	dürtüsel	ADJ	_	_	8	advmod	_	_
+8	davranmayı	davran	NOUN	_	Case=Acc|Number=Sing|Person=3	10	ccomp	_	_
+9	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
+10	ediyorsun	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Biz uzun vadeli hedeflerimize odaklanıyoruz, onlar ise kısa vadeli kazançların peşinde.
+1	Biz	biz	PRON	_	PronType=Prs	5	nsubj	_	_
+2	uzun	uzun	ADJ	_	_	3	amod	_	_
+3	vadeli	vade	ADJ	_	_	4	amod	_	_
+4	hedeflerimize	hedef	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	5	obl	_	_
+5	odaklanıyoruz	odak	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	onlar	o	PRON	_	PronType=Dem	12	nsubj	_	_
+8	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	case	_	_
+9	kısa	kısa	ADJ	_	_	10	amod	_	_
+10	vadeli	vade	ADJ	_	_	11	amod	_	_
+11	kazançların	kazanç	NOUN	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	peşinde	peşinde	NOUN	_	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Sen sadece riskleri görüyorsun, ama ben potansiyel faydaları görüyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	sadece	sadece	ADV	_	_	4	advmod	_	_
+3	riskleri	risk	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	görüyorsun	gör	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ama	ama	CCONJ	_	_	10	cc	_	_
+7	ben	ben	PRON	_	PronType=Prs	10	nsubj	_	_
+8	potansiyel	potansiyel	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
+9	faydaları	fayda	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+10	görüyorum	gör	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Adam duygusal tepki verirken, kadın mantıklı bir şekilde cevap verir.
+1	Adam	adam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+2	duygusal	duygusal	ADJ	_	_	3	amod	_	_
+3	tepki	tepki	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	verirken	ver	ADV	_	_	11	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
+7	mantıklı	mantık	ADJ	_	_	9	amod	_	_
+8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+9	şekilde	şekil	NOUN	_	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+10	cevap	cevap	NOUN	_	Case=Nom|Number=Sing|Person=3	11	compound	_	_
+11	verir	ver	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Ben anlaşmazlıkları nazikçe çözmeye çalışıyorum, sen ise sorunlarla doğrudan yüzleşiyorsun.
+1	Ben	ben	PRON	_	PronType=Prs	5	nsubj	_	_
+2	anlaşmazlıkları	anlaşmazlık	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+3	nazikçe	nazikçe	ADV	_	_	4	advmod	_	_
+4	çözmeye	çöz	NOUN	_	Case=Dat|Number=Sing|Person=3	5	ccomp	_	_
+5	çalışıyorum	çalış	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	sen	sen	PRON	_	PronType=Prs	11	nsubj	_	_
+8	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	case	_	_
+9	sorunlarla	sorun	NOUN	_	Case=Ins|Number=Plur|Person=3	11	obl	_	_
+10	doğrudan	doğrudan	ADJ	_	_	11	advmod	_	_
+11	yüzleşiyorsun	yüzleş	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = O, deneyimlere yatırım yaparken, kocası paralarının çoğunu aletlere harcar.
+1	O	o	PRON	_	PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	deneyimlere	deneyim	NOUN	_	Case=Dat|Number=Plur|Person=3	5	obl	_	_
+4	yatırım	yatırım	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
+5	yaparken	yap	ADV	_	_	11	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	kocası	koca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+8	paralarının	para	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod	_	_
+9	çoğunu	çoğu	PRON	_	PronType=Ind	11	obj	_	_
+10	aletlere	alet	NOUN	_	Case=Dat|Number=Plur|Person=3	11	obl	_	_
+11	harcar	harca	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Sen her şeyi düzenli tutuyorsun ama ben her şeyi olduğu yerde bırakıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	5	nsubj	_	_
+2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	şeyi	şey	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+4	düzenli	düzen	ADJ	_	_	5	advmod	_	_
+5	tutuyorsun	tut	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ama	ama	CCONJ	_	_	12	cc	_	_
+7	ben	ben	PRON	_	PronType=Prs	12	nsubj	_	_
+8	her	her	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	şeyi	şey	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+10	olduğu	ol	ADJ	_	_	11	acl	_	_
+11	yerde	yer	NOUN	_	Case=Loc|Number=Sing|Person=3	12	obl	_	_
+12	bırakıyorum	bırak	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = O yalnız çalışmayı tercih ederken, kadın yoğun bir ekipte gelişir.
+1	O	o	PRON	_	PronType=Prs	5	nsubj	_	_
+2	yalnız	yalnız	ADV	_	_	3	advmod	_	_
+3	çalışmayı	çalış	NOUN	_	Case=Acc|Number=Sing|Person=3	5	ccomp	_	_
+4	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
+5	ederken	et	ADV	_	_	11	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
+8	yoğun	yoğun	ADJ	_	_	10	amod	_	_
+9	bir	bir	DET	_	Definite=Ind|PronType=Art	10	det	_	_
+10	ekipte	ekip	NOUN	_	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+11	gelişir	geliş	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Onlar her küçük zaferi kutlarlar, ama biz büyük zaferler için enerjimizi saklarız.
+1	Onlar	o	PRON	_	PronType=Dem	5	nsubj	_	_
+2	her	her	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	küçük	küçük	ADJ	_	_	4	amod	_	_
+4	zaferi	zafer	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+5	kutlarlar	kutla	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	13	cc	_	_
+8	biz	biz	PRON	_	PronType=Prs	13	nsubj	_	_
+9	büyük	büyük	ADJ	_	_	10	amod	_	_
+10	zaferler	zafer	NOUN	_	Case=Nom|Number=Plur|Person=3	13	obl	_	_
+11	için	için	ADP	_	_	10	case	_	_
+12	enerjimizi	enerji	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	13	obj	_	_
+13	saklarız	sakla	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = turkish-kenet-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Kadın değişime çabucak adapte oluyor ama erkek alışık olduğu rutinine bağlı kalıyor.
+1	Kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+2	değişime	değişim	NOUN	_	Case=Dat|Number=Sing|Person=3	5	obl	_	_
+3	çabucak	çabucak	ADV	_	_	5	advmod	_	_
+4	adapte	adapte	NOUN	_	_	5	compound	_	_
+5	oluyor	ol	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ama	ama	CCONJ	_	_	12	cc	_	_
+7	erkek	erkek	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+8	alışık	alışık	ADJ	_	_	9	advmod	_	_
+9	olduğu	ol	ADJ	_	_	10	acl	_	_
+10	rutinine	rutin	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
+11	bağlı	bağ	ADJ	_	_	12	compound	_	_
+12	kalıyor	kal	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Biz bilgiyi özgürce paylaşıyoruz, onlar ise her detayı saklıyorlar.
+1	Biz	biz	PRON	_	PronType=Prs	4	nsubj	_	_
+2	bilgiyi	bilgi	NOUN	_	Case=Acc|Number=Sing|Person=3	4	obj	_	_
+3	özgürce	özgürce	ADV	_	_	4	advmod	_	_
+4	paylaşıyoruz	paylaş	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	onlar	o	PRON	_	PronType=Dem	10	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	her	her	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	detayı	detay	NOUN	_	Case=Acc|Number=Sing|Person=3	10	obj	_	_
+10	saklıyorlar	sakla	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Sen hataları başarısızlık olarak görüyorsun ama ben onları pratik olarak görüyorum.
+1	Sen	sen	PRON	_	PronType=Prs	5	nsubj	_	_
+2	hataları	hata	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+3	başarısızlık	başarısızlık	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+4	olarak	ol	ADV	_	_	5	advcl	_	_
+5	görüyorsun	gör	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ama	ama	CCONJ	_	_	11	cc	_	_
+7	ben	ben	PRON	_	PronType=Prs	11	nsubj	_	_
+8	onları	o	PRON	_	PronType=Dem	11	obj	_	_
+9	pratik	pratik	ADJ	_	_	10	advmod	_	_
+10	olarak	ol	ADV	_	_	11	advcl	_	_
+11	görüyorum	gör	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Kocası herkesin önünde konuşurken kendine güvenen biri, karısı ise düşüncelerini yazılı olarak aktarmayı tercih ediyor.
+1	Kocası	koca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
+2	herkesin	herkes	PRON	_	PronType=Ind	3	nmod	_	_
+3	önünde	ön	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+4	konuşurken	konuş	ADV	_	_	6	advcl	_	_
+5	kendine	kendi	PRON	_	PronType=Prs|Reflex=Yes	6	obl	_	_
+6	güvenen	güven	ADJ	_	_	7	acl	_	_
+7	biri	biri	PRON	_	PronType=Ind	16	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	karısı	karı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	conj	_	_
+10	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	case	_	_
+11	düşüncelerini	düşünce	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
+12	yazılı	yazılı	ADJ	_	_	13	advmod	_	_
+13	olarak	ol	ADV	_	_	14	advcl	_	_
+14	aktarmayı	aktar	NOUN	_	Case=Acc|Number=Sing|Person=3	16	ccomp	_	_
+15	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	16	compound	_	_
+16	ediyor	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Onlar mümkün olduğunda seyahat ederler, biz ise memleketimizden nadiren ayrılıyoruz.
+1	Onlar	o	PRON	_	PronType=Dem	5	nsubj	_	_
+2	mümkün	mümkün	ADJ	_	_	3	advmod	_	_
+3	olduğunda	ol	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	advcl	_	_
+4	seyahat	seyahat	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
+5	ederler	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	biz	biz	PRON	_	PronType=Prs	11	nsubj	_	_
+8	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	case	_	_
+9	memleketimizden	memleket	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	11	obl	_	_
+10	nadiren	nadiren	ADV	_	_	11	advmod	_	_
+11	ayrılıyoruz	ayrıl	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Sen erken uyanmayı seviyorsun ama ben gece geç saatlerde kendimi en enerjik hissediyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	erken	erken	ADV	_	_	3	advmod	_	_
+3	uyanmayı	uyan	NOUN	_	Case=Acc|Number=Sing|Person=3	4	ccomp	_	_
+4	seviyorsun	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	13	cc	_	_
+6	ben	ben	PRON	_	PronType=Prs	13	nsubj	_	_
+7	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	13	obl	_	_
+8	geç	geç	ADJ	_	_	9	amod	_	_
+9	saatlerde	saat	NOUN	_	Case=Loc|Number=Plur|Person=3	13	obl	_	_
+10	kendimi	kendi	PRON	_	PronType=Prs|Reflex=Yes	13	obj	_	_
+11	en	en	ADV	_	Degree=Sup	12	advmod	_	_
+12	enerjik	enerjik	ADJ	_	_	13	advmod	_	_
+13	hissediyorum	hisset	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = O eğlence için bilimsel makaleler okurken, o ise suç romanlarını tercih ediyor.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	eğlence	eğlence	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+3	için	için	ADP	_	_	2	case	_	_
+4	bilimsel	bilimsel	ADJ	_	_	5	amod	_	_
+5	makaleler	makale	NOUN	_	Case=Nom|Number=Plur|Person=3	6	obj	_	_
+6	okurken	oku	ADV	_	_	13	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	o	o	PRON	_	PronType=Prs	13	nsubj	_	_
+9	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	case	_	_
+10	suç	suç	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nmod	_	_
+11	romanlarını	roman	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	13	obj	_	_
+12	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	13	compound	_	_
+13	ediyor	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Her yemeği evde pişirirler, biz ise genellikle dışarıda yiyoruz.
+1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	yemeği	yemek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+3	evde	ev	NOUN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	_
+4	pişirirler	pişir	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	biz	biz	PRON	_	PronType=Prs	10	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	genellikle	genellikle	ADV	_	_	10	advmod	_	_
+9	dışarıda	dışarı	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+10	yiyoruz	ye	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = O, her kuruşunu biriktirir, ama kadın küçük lüks şeylere bol bol harcar.
+1	O	o	PRON	_	PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	her	her	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	kuruşunu	kur	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+5	biriktirir	birik	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	14	cc	_	_
+8	kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
+9	küçük	küçük	ADJ	_	_	11	amod	_	_
+10	lüks	lüks	ADJ	_	_	11	amod	_	_
+11	şeylere	şey	NOUN	_	Case=Dat|Number=Plur|Person=3	14	obl	_	_
+12	bol	bol	ADJ	_	_	13	compound	_	_
+13	bol	bol	ADJ	_	_	14	advmod	_	_
+14	harcar	harca	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Sen basit sohbetleri seviyorsun, oysa ben sık sık ciddi konulara dalıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	4	nsubj	_	_
+2	basit	basit	ADJ	_	_	3	amod	_	_
+3	sohbetleri	sohbet	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	seviyorsun	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	oysa	o	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+7	ben	ben	PRON	_	PronType=Prs	12	nsubj	_	_
+8	sık	sık	ADV	_	_	9	compound	_	_
+9	sık	sık	ADV	_	_	12	advmod	_	_
+10	ciddi	ciddi	ADJ	_	_	11	amod	_	_
+11	konulara	konu	NOUN	_	Case=Dat|Number=Plur|Person=3	12	obl	_	_
+12	dalıyorum	dal	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Biz en güvenli yolu seçeriz, ama onlar her zaman en heyecanlı olanı seçerler.
+1	Biz	biz	PRON	_	PronType=Prs	5	nsubj	_	_
+2	en	en	ADV	_	Degree=Sup	3	advmod	_	_
+3	güvenli	güven	ADJ	_	_	4	amod	_	_
+4	yolu	yol	NOUN	_	Case=Acc|Number=Sing|Person=3	5	obj	_	_
+5	seçeriz	seç	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	14	cc	_	_
+8	onlar	o	PRON	_	PronType=Dem	14	nsubj	_	_
+9	her	her	DET	_	Definite=Def|PronType=Art	10	det	_	_
+10	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	14	obl	_	_
+11	en	en	ADV	_	Degree=Sup	12	advmod	_	_
+12	heyecanlı	heyecanlı	ADJ	_	_	13	amod	_	_
+13	olanı	ol	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
+14	seçerler	seç	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = O, talimatları tam olarak takip ederken, o baştan beri doğaçlama yapıyor.
+1	O	o	PRON	_	PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	talimatları	talimat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
+4	tam	tam	ADV	_	_	5	advmod	_	_
+5	olarak	ol	ADV	_	_	7	advcl	_	_
+6	takip	takip	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound	_	_
+7	ederken	et	ADV	_	_	13	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	o	o	DET	_	Definite=Def|PronType=Art	10	det	_	_
+10	baştan	başta	NOUN	_	Case=Abl|Number=Sing|Person=3	13	obl	_	_
+11	beri	beri	ADP	_	_	10	case	_	_
+12	doğaçlama	doğaçla	NOUN	_	Case=Nom|Number=Sing|Person=3	13	compound	_	_
+13	yapıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Ben baskı altında en iyi çalışırım, oysa senin hazırlanman için bolca zamana ihtiyacın var.
+1	Ben	ben	PRON	_	PronType=Prs	6	nsubj	_	_
+2	baskı	baskı	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	altında	alt	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+4	en	en	ADV	_	Degree=Sup	5	advmod	_	_
+5	iyi	iyi	ADJ	_	_	6	advmod	_	_
+6	çalışırım	çalış	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	oysa	o	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+9	senin	sen	PRON	_	PronType=Prs	10	nmod	_	_
+10	hazırlanman	hazırla	NOUN	_	Case=Nom|Number=Sing|Person=3	15	obl	_	_
+11	için	için	ADP	_	_	10	case	_	_
+12	bolca	bolca	ADJ	_	_	13	amod	_	_
+13	zamana	zaman	NOUN	_	Case=Dat|Number=Sing|Person=3	15	obl	_	_
+14	ihtiyacın	ihtiyaç	NOUN	_	Case=Gen|Number=Sing|Person=3	15	nsubj	_	_
+15	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Onlar gürültülü kutlarlar, ama biz özel günleri sessizce kutlarız.
+1	Onlar	o	PRON	_	PronType=Dem	3	nsubj	_	_
+2	gürültülü	gürültü	ADJ	_	_	3	advmod	_	_
+3	kutlarlar	kutla	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	10	cc	_	_
+6	biz	biz	PRON	_	PronType=Prs	10	nsubj	_	_
+7	özel	özel	ADJ	_	_	8	amod	_	_
+8	günleri	gün	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+9	sessizce	sessizce	ADV	_	_	10	advmod	_	_
+10	kutlarız	kutla	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = O, sezgisine güveniyor, o ise dikkatli araştırmaya güveniyor.
+1	O	o	PRON	_	PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	sezgisine	sezgi	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+4	güveniyor	güven	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	PRON	_	PronType=Prs	10	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	dikkatli	dikkat	ADJ	_	_	9	advmod	_	_
+9	araştırmaya	araştırma	NOUN	_	Case=Dat|Number=Sing|Person=3	10	ccomp	_	_
+10	güveniyor	güven	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Sen solo projeleri tercih ederken ben büyük bir takımla çalışmaktan hoşlanıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	5	nsubj	_	_
+2	solo	solo	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	projeleri	proje	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+4	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
+5	ederken	et	ADV	_	_	11	advcl	_	_
+6	ben	ben	PRON	_	PronType=Prs	11	nsubj	_	_
+7	büyük	büyük	ADJ	_	_	9	amod	_	_
+8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+9	takımla	takım	NOUN	_	Case=Ins|Number=Sing|Person=3	10	obl	_	_
+10	çalışmaktan	çalış	NOUN	_	Case=Abl|Number=Sing|Person=3	11	ccomp	_	_
+11	hoşlanıyorum	hoşlan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Evimizi çok az süslemişizdir ama onlar her köşesini hatıralarla dolduruyorlar.
+1	Evimizi	ev	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	4	obj	_	_
+2	çok	çok	ADV	_	_	3	advmod	_	_
+3	az	az	ADV	_	_	4	advmod	_	_
+4	süslemişizdir	süsle	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	10	cc	_	_
+6	onlar	o	PRON	_	PronType=Dem	10	nsubj	_	_
+7	her	her	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	köşesini	köşe	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+9	hatıralarla	hatıra	NOUN	_	Case=Ins|Number=Plur|Person=3	10	obl	_	_
+10	dolduruyorlar	dol	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Cau	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = O, gün doğarken egzersiz yapar, o da kapanmadan hemen önce spor salonuna gider.
+1	O	o	PRON	_	PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	_
+4	doğarken	doğ	ADV	_	_	6	advcl	_	_
+5	egzersiz	egzersiz	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obj	_	_
+6	yapar	yap	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	o	o	PRON	_	PronType=Prs	15	nsubj	_	_
+9	da	da	CCONJ	_	_	8	advmod	_	_
+10	kapanmadan	kapan	ADV	_	_	15	advcl	_	_
+11	hemen	hemen	ADV	_	_	12	advmod	_	_
+12	önce	önce	ADV	_	_	15	advmod	_	_
+13	spor	spor	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
+14	salonuna	salon	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	_
+15	gider	gider	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Masasını lekesiz tutuyor, ama onunki her zaman kağıtlarla kaplı.
+1	Masasını	masa	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+2	lekesiz	lekesiz	ADJ	_	_	3	advmod	_	_
+3	tutuyor	tut	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	10	cc	_	_
+6	onunki	o	ADJ	_	_	8	amod	_	_
+7	her	her	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obl	_	_
+9	kağıtlarla	kağıt	NOUN	_	Case=Ins|Number=Plur|Person=3	10	obl	_	_
+10	kaplı	kap	ADJ	_	_	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Sen her doğum gününü hatırlıyorsun ama ben sürekli tarihleri unutuyorum.
+1	Sen	sen	PRON	_	PronType=Prs	5	nsubj	_	_
+2	her	her	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	doğum	doğum	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	gününü	gün	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+5	hatırlıyorsun	hatırla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ama	ama	CCONJ	_	_	10	cc	_	_
+7	ben	ben	PRON	_	PronType=Prs	10	nsubj	_	_
+8	sürekli	sürekli	ADV	_	_	10	advmod	_	_
+9	tarihleri	tarih	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+10	unutuyorum	unut	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = turkish-kenet-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Biz klasik müzik dinliyoruz, onlar ise elektronik ritmlere dans ediyorlar.
+1	Biz	biz	PRON	_	PronType=Prs	4	nsubj	_	_
+2	klasik	klasik	ADJ	_	_	3	amod	_	_
+3	müzik	müzik	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
+4	dinliyoruz	dinle	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	onlar	o	PRON	_	PronType=Dem	11	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	elektronik	elektronik	ADJ	_	_	9	amod	_	_
+9	ritmlere	ritm	NOUN	_	Case=Dat|Number=Plur|Person=3	11	obl	_	_
+10	dans	dans	NOUN	_	Case=Nom|Number=Sing|Person=3	11	compound	_	_
+11	ediyorlar	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = O kolayca sır saklar, o ise haberleri duyduğu anda paylaşır.
+1	O	o	PRON	_	PronType=Prs	4	nsubj	_	_
+2	kolayca	kolay	ADV	_	_	4	advmod	_	_
+3	sır	sır	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
+4	saklar	sakla	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	PRON	_	PronType=Prs	11	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	haberleri	haber	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
+9	duyduğu	duy	ADJ	_	_	10	acl	_	_
+10	anda	an	NOUN	_	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+11	paylaşır	paylaş	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Eski pulları topluyor, ama onun bu tür hobilerle ilgisi yok.
+1	Eski	eski	ADJ	_	_	2	amod	_	_
+2	pulları	pul	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+3	topluyor	topla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	11	cc	_	_
+6	onun	o	PRON	_	PronType=Prs	10	nmod	_	_
+7	bu	bu	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	tür	tür	NOUN	_	Case=Nom|Number=Sing|Person=3	9	amod	_	_
+9	hobilerle	hobi	NOUN	_	Case=Ins|Number=Plur|Person=3	11	obl	_	_
+10	ilgisi	ilgi	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+11	yok	yok	ADJ	_	_	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Onlar her hafta sonu yürüyüşe çıkıyorlar; ancak biz bunun yerine evde kitap okumak için kalıyoruz.
+1	Onlar	o	PRON	_	PronType=Dem	6	nsubj	_	_
+2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	sonu	son	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+5	yürüyüşe	yürüyüş	NOUN	_	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+6	çıkıyorlar	çık	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	_	_	6	punct	_	_
+8	ancak	ancak	ADV	_	_	16	cc	_	_
+9	biz	biz	PRON	_	PronType=Prs	16	nsubj	_	_
+10	bunun	bu	PRON	_	PronType=Dem	11	nmod	_	_
+11	yerine	yer	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
+12	evde	ev	NOUN	_	Case=Loc|Number=Sing|Person=3	14	obl	_	_
+13	kitap	kitap	NOUN	_	Case=Nom|Number=Sing|Person=3	14	obj	_	_
+14	okumak	oku	NOUN	_	Case=Nom|Number=Sing|Person=3	16	advcl	_	_
+15	için	için	ADP	_	_	14	case	_	_
+16	kalıyoruz	kal	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = O güzel manzara resimleri yaparken, o soyut tasarımlarda uzmanlaşmıştır.
+1	O	o	DET	_	Definite=Def|PronType=Art	4	det	_	_
+2	güzel	güzel	ADJ	_	_	4	amod	_	_
+3	manzara	manzara	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
+4	resimleri	resim	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+5	yaparken	yap	ADV	_	_	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	o	o	PRON	_	PronType=Prs	10	nsubj	_	_
+8	soyut	soyut	ADJ	_	_	9	amod	_	_
+9	tasarımlarda	tasarım	NOUN	_	Case=Loc|Number=Plur|Person=3	10	obl	_	_
+10	uzmanlaşmıştır	uzman	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ben her gün taze ekmek pişirirken sen her zaman mağazadan alıyorsun.
+1	Ben	ben	PRON	_	PronType=Prs	6	nsubj	_	_
+2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+4	taze	taze	ADJ	_	_	5	amod	_	_
+5	ekmek	ekmek	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obj	_	_
+6	pişirirken	pişir	ADV	_	_	11	advcl	_	_
+7	sen	sen	PRON	_	PronType=Prs	11	nsubj	_	_
+8	her	her	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+10	mağazadan	mağaza	NOUN	_	Case=Abl|Number=Sing|Person=3	11	obl	_	_
+11	alıyorsun	al	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Biz sinemaya düzenli olarak gideriz, ama onlar evde film izlerler.
+1	Biz	biz	PRON	_	PronType=Prs	5	nsubj	_	_
+2	sinemaya	sinema	NOUN	_	Case=Dat|Number=Sing|Person=3	5	obl	_	_
+3	düzenli	düzen	ADJ	_	_	4	advmod	_	_
+4	olarak	ol	ADV	_	_	5	advcl	_	_
+5	gideriz	git	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	11	cc	_	_
+8	onlar	o	PRON	_	PronType=Dem	11	nsubj	_	_
+9	evde	ev	NOUN	_	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+10	film	film	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obj	_	_
+11	izlerler	izle	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Sen işten önce derin düşünüyorsun, ben ise durmadan işe atlıyorum.
+1	Sen	sen	PRON	_	PronType=Prs	5	nsubj	_	_
+2	işten	iş	NOUN	_	Case=Abl|Number=Sing|Person=3	5	obl	_	_
+3	önce	önce	ADV	_	_	5	advmod	_	_
+4	derin	derin	ADJ	_	_	5	advmod	_	_
+5	düşünüyorsun	düşün	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ben	ben	PRON	_	PronType=Prs	11	nsubj	_	_
+8	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	case	_	_
+9	durmadan	durmadan	ADV	_	_	11	advcl	_	_
+10	işe	iş	NOUN	_	Case=Dat|Number=Sing|Person=3	11	compound	_	_
+11	atlıyorum	atla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Bahçeleri arka bahçede ama bizler mekanımızı bahçe mobilyalarıyla dolduruyoruz.
+1	Bahçeleri	bahçe	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
+2	arka	arka	ADJ	_	_	3	amod	_	_
+3	bahçede	bahçe	NOUN	_	Case=Loc|Number=Sing|Person=3	0	root	_	_
+4	ama	ama	CCONJ	_	_	9	cc	_	_
+5	bizler	biz	PRON	_	PronType=Prs	9	nsubj	_	_
+6	mekanımızı	mekan	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	9	obj	_	_
+7	bahçe	bahçe	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
+8	mobilyalarıyla	mobilya	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+9	dolduruyoruz	dol	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Her akşam günlük yazarken, o sosyal medyada gezinmeyi tercih ediyor.
+1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	_
+3	günlük	gün	ADJ	_	_	4	advmod	_	_
+4	yazarken	yazar	ADV	_	_	11	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	PRON	_	PronType=Prs	11	nsubj	_	_
+7	sosyal	sosyal	ADJ	_	_	8	amod	_	_
+8	medyada	medya	NOUN	_	Case=Loc|Number=Sing|Person=3	9	obl	_	_
+9	gezinmeyi	gezin	NOUN	_	Case=Acc|Number=Sing|Person=3	11	ccomp	_	_
+10	tercih	tercih	NOUN	_	Case=Nom|Number=Sing|Person=3	11	compound	_	_
+11	ediyor	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Ben ofise bisikletle giderken sen her gün oraya arabayla gidiyorsun.
+1	Ben	ben	PRON	_	PronType=Prs	4	nsubj	_	_
+2	ofise	ofis	NOUN	_	Case=Dat|Number=Sing|Person=3	4	obl	_	_
+3	bisikletle	bisiklet	NOUN	_	Case=Ins|Number=Sing|Person=3	4	obl	_	_
+4	giderken	gider	ADV	_	_	10	advcl	_	_
+5	sen	sen	PRON	_	PronType=Prs	10	nsubj	_	_
+6	her	her	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obl	_	_
+8	oraya	oraya	ADV	_	_	10	advmod	_	_
+9	arabayla	araba	NOUN	_	Case=Ins|Number=Sing|Person=3	10	obl	_	_
+10	gidiyorsun	git	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Biz masa oyunları geceleri sunuyoruz, ama onlar bunun yerine dans partileri düzenliyorlar.
+1	Biz	biz	PRON	_	PronType=Prs	5	nsubj	_	_
+2	masa	masa	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	oyunları	oyun	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+4	geceleri	geceleri	ADV	_	_	5	advmod	_	_
+5	sunuyoruz	sun	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	13	cc	_	_
+8	onlar	o	PRON	_	PronType=Dem	13	nsubj	_	_
+9	bunun	bu	PRON	_	PronType=Dem	10	nmod	_	_
+10	yerine	yer	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
+11	dans	dans	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
+12	partileri	parti	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	_
+13	düzenliyorlar	düzenle	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = O tarih kitaplarını okur, o ise sadece bilim dergilerine odaklanır.
+1	O	o	DET	_	Definite=Def|PronType=Art	4	nsubj	_	_
+2	tarih	tarih	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	kitaplarını	kitap	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	okur	oku	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	PRON	_	PronType=Prs	11	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	sadece	sadece	ADV	_	_	11	advmod	_	_
+9	bilim	bilim	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
+10	dergilerine	dergi	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
+11	odaklanır	odaklan	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Şafakta yüzüyorlar; ancak biz günün ilerleyen saatlerinde havuzun yanında dinleniyoruz.
+1	Şafakta	şafak	NOUN	_	Case=Loc|Number=Sing|Person=3	2	obl	_	_
+2	yüzüyorlar	yüz	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	_	_	2	punct	_	_
+4	ancak	ancak	ADV	_	_	11	cc	_	_
+5	biz	biz	PRON	_	PronType=Prs	11	nsubj	_	_
+6	günün	gün	NOUN	_	Case=Gen|Number=Sing|Person=3	8	nmod	_	_
+7	ilerleyen	ilerle	ADJ	_	_	8	acl	_	_
+8	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
+9	havuzun	havuz	NOUN	_	Case=Gen|Number=Sing|Person=3	10	nmod	_	_
+10	yanında	yanında	ADV	_	_	11	obl	_	_
+11	dinleniyoruz	dinlen	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = O hafta sonları müzik besteler, ama o durmadan podcast dinliyor.
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+3	sonları	son	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
+4	müzik	müzik	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
+5	besteler	bestele	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	11	cc	_	_
+8	o	o	PRON	_	PronType=Dem	9	nsubj	_	_
+9	durmadan	durmadan	ADV	_	_	11	advcl	_	_
+10	podcast	podcast	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obj	_	_
+11	dinliyor	dinle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Ben kamıştan sepet örüyorum, siz ise pazarlardan alıyorsunuz.
+1	Ben	ben	PRON	_	PronType=Prs	4	nsubj	_	_
+2	kamıştan	kamış	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
+3	sepet	sepet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
+4	örüyorum	ör	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	siz	siz	PRON	_	PronType=Prs	9	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	pazarlardan	pazar	NOUN	_	Case=Abl|Number=Plur|Person=3	9	obl	_	_
+9	alıyorsunuz	al	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Biz açık gecelerde yıldızlara bakıyoruz, ama onlar gökyüzü ne olursa olsun erken uyuyorlar.
+1	Biz	biz	PRON	_	PronType=Prs	5	nsubj	_	_
+2	açık	açık	ADJ	_	_	3	amod	_	_
+3	gecelerde	gece	NOUN	_	Case=Loc|Number=Plur|Person=3	5	obl	_	_
+4	yıldızlara	yıldız	NOUN	_	Case=Dat|Number=Plur|Person=3	5	obl	_	_
+5	bakıyoruz	bak	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	14	cc	_	_
+8	onlar	o	PRON	_	PronType=Dem	14	nsubj	_	_
+9	gökyüzü	gökyüz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obj	_	_
+10	ne	ne	ADV	_	PronType=Int	11	obj	_	_
+11	olursa	ol	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+12	olsun	ol	VERB	_	Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+13	erken	erken	ADV	_	_	14	advmod	_	_
+14	uyuyorlar	uyu	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Onlar vahşi meyveler için yiyecek ararlar; ancak biz her zaman süpermarketlerde alışveriş yaparız.
+1	Onlar	o	PRON	_	PronType=Dem	6	nsubj	_	_
+2	vahşi	vahşi	ADJ	_	_	3	amod	_	_
+3	meyveler	meyve	NOUN	_	Case=Nom|Number=Plur|Person=3	6	obl	_	_
+4	için	için	ADP	_	_	3	case	_	_
+5	yiyecek	yiyecek	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
+6	ararlar	ara	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	_	_	6	punct	_	_
+8	ancak	ancak	ADV	_	_	14	cc	_	_
+9	biz	biz	PRON	_	PronType=Prs	14	nsubj	_	_
+10	her	her	DET	_	Definite=Def|PronType=Art	11	det	_	_
+11	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	14	obl	_	_
+12	süpermarketlerde	süpermarket	NOUN	_	Case=Loc|Number=Plur|Person=3	14	obl	_	_
+13	alışveriş	alışveriş	NOUN	_	Case=Nom|Number=Sing|Person=3	14	compound	_	_
+14	yaparız	yap	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Adam şiirleri yüksek sesle okuyor, ama kadın sessizce kendi kendine fısıldıyor.
+1	Adam	adam	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	şiirleri	şiir	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+3	yüksek	yüksek	ADJ	_	_	4	amod	_	_
+4	sesle	ses	NOUN	_	Case=Ins|Number=Sing|Person=3	5	obl	_	_
+5	okuyor	oku	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	12	cc	_	_
+8	kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
+9	sessizce	sessizce	ADV	_	_	12	advmod	_	_
+10	kendi	kendi	PRON	_	PronType=Prs|Reflex=Yes	11	compound	_	_
+11	kendine	kendi	PRON	_	PronType=Prs|Reflex=Yes	12	obl	_	_
+12	fısıldıyor	fısılda	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Ben bonsai ağaçlarına bakıyorum, sen ise uzun güneşçiçekler yetiştiriyorsun.
+1	Ben	ben	PRON	_	PronType=Prs	4	nsubj	_	_
+2	bonsai	bonsai	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	ağaçlarına	ağaç	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+4	bakıyorum	bak	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	sen	sen	PRON	_	PronType=Prs	10	nsubj	_	_
+7	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	case	_	_
+8	uzun	uzun	ADJ	_	_	9	amod	_	_
+9	güneşçiçekler	güneşçiçek	NOUN	_	Case=Nom|Number=Plur|Person=3	10	obj	_	_
+10	yetiştiriyorsun	yetiş	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = turkish-kenet-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Onlar küçük teknelerle göllerde yolculuk ederler; biz ise kayıklarla nehirlerde yürürüz.
+1	Onlar	o	PRON	_	PronType=Dem	6	nsubj	_	_
+2	küçük	küçük	ADJ	_	_	3	amod	_	_
+3	teknelerle	tekne	NOUN	_	Case=Ins|Number=Plur|Person=3	6	obl	_	_
+4	göllerde	göl	NOUN	_	Case=Loc|Number=Plur|Person=3	6	obl	_	_
+5	yolculuk	yolculuk	NOUN	_	Case=Nom|Number=Sing|Person=3	6	compound	_	_
+6	ederler	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+7	;	;	PUNCT	_	_	6	punct	_	_
+8	biz	biz	PRON	_	PronType=Prs	12	nsubj	_	_
+9	ise	i	VERB	_	Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	8	case	_	_
+10	kayıklarla	kayık	NOUN	_	Case=Ins|Number=Plur|Person=3	12	obl	_	_
+11	nehirlerde	nehir	NOUN	_	Case=Loc|Number=Plur|Person=3	12	obl	_	_
+12	yürürüz	yürü	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sen kahveyi götürürsün, ama ben dolu bir fincan için otururum.
+1	Sen	sen	PRON	_	PronType=Prs	3	nsubj	_	_
+2	kahveyi	kahve	NOUN	_	Case=Acc|Number=Sing|Person=3	3	obj	_	_
+3	götürürsün	götür	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ama	ama	CCONJ	_	_	11	cc	_	_
+6	ben	ben	PRON	_	PronType=Prs	11	nsubj	_	_
+7	dolu	dolu	ADJ	_	_	9	amod	_	_
+8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
+9	fincan	fincan	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+10	için	için	ADP	_	_	9	case	_	_
+11	otururum	otur	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Adam çamaşırları hemen katlar, ama kadın onları sepette bırakır.
+1	Adam	adam	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+2	çamaşırları	çamaşır	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+3	hemen	hemen	ADV	_	_	4	advmod	_	_
+4	katlar	kat	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ama	ama	CCONJ	_	_	10	cc	_	_
+7	kadın	kadın	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+8	onları	o	PRON	_	PronType=Dem	10	obj	_	_
+9	sepette	sepet	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl	_	_
+10	bırakır	bırak	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Önce hava durumunu kontrol edeceğim, sen de git.
+1	Önce	önce	ADV	_	_	5	advmod	_	_
+2	hava	hava	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	durumunu	durum	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+4	kontrol	kontrol	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound	_	_
+5	edeceğim	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	sen	sen	PRON	_	PronType=Prs	9	nsubj	_	_
+8	de	de	CCONJ	_	_	7	advmod	_	_
+9	git	git	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Hesapları internetten ödüyoruz ama her ay çek gönderiyorlar.
+1	Hesapları	hesap	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+2	internetten	internet	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl	_	_
+3	ödüyoruz	öde	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ama	ama	CCONJ	_	_	8	cc	_	_
+5	her	her	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl	_	_
+7	çek	çek	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obj	_	_
+8	gönderiyorlar	gönder	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Her şeye şeker ekliyorsun, ben de tamamen atlıyorum.
+1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	şeye	şey	NOUN	_	Case=Dat|Number=Sing|Person=3	4	obl	_	_
+3	şeker	şeker	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
+4	ekliyorsun	ekle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ben	ben	PRON	_	PronType=Prs	9	nsubj	_	_
+7	de	de	CCONJ	_	_	6	advmod	_	_
+8	tamamen	tamamen	ADV	_	_	9	advmod	_	_
+9	atlıyorum	atla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = O haber uygulamalarını okuyor, ama o gazeteyi teslim ediyor.
+1	O	o	DET	_	Definite=Def|PronType=Art	4	nsubj	_	_
+2	haber	haber	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+3	uygulamalarını	uygulama	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	okuyor	oku	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ama	ama	CCONJ	_	_	10	cc	_	_
+7	o	o	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	gazeteyi	gazete	NOUN	_	Case=Acc|Number=Sing|Person=3	10	obj	_	_
+9	teslim	teslim	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound	_	_
+10	ediyor	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = O her gün bitkileri sular, ama o bitkiler düşene kadar unutur.
+1	O	o	PRON	_	PronType=Prs	5	nsubj	_	_
+2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+4	bitkileri	bitki	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+5	sular	sula	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ama	ama	CCONJ	_	_	12	cc	_	_
+8	o	o	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	bitkiler	bitki	NOUN	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
+10	düşene	düş	NOUN	_	Case=Dat|Number=Sing|Person=3	12	advcl	_	_
+11	kadar	kadar	ADP	_	_	10	case	_	_
+12	unutur	unut	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Odalardan çıkarken ışıkları kapatırız ama onlar onları yanarak bırakırlar.
+1	Odalardan	oda	NOUN	_	Case=Abl|Number=Plur|Person=3	2	obl	_	_
+2	çıkarken	çık	ADV	_	_	4	advcl	_	_
+3	ışıkları	ışık	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	kapatırız	kapat	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ama	ama	CCONJ	_	_	9	cc	_	_
+6	onlar	o	PRON	_	PronType=Dem	9	nsubj	_	_
+7	onları	o	PRON	_	PronType=Dem	8	obj	_	_
+8	yanarak	yan	ADV	_	_	9	advcl	_	_
+9	bırakırlar	bırak	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+
